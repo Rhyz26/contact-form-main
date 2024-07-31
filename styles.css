@@ -1,6 +1,53 @@
-body{
-    font-family: Karla;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Karla;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.enquiry {
+  display: flex;
+  gap: 0.5rem;
+}
+.name{
+    display: flex;
+    gap:0.5rem;
+    
+}
+.first{
+    /* display: flex; */
+
+}
+.check{
+    display: flex;
+    gap:0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.content{
+    background-color: goldenrod;
+    width:450px;
+    margin-top: 8rem;
+    margin-left: 28rem;
+    padding-left:1.5rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.required::after {
+    content: ' *';
+    color: hsl(169, 82%, 27%);
+    
+}
+.required{
+    margin-bottom: 2em;
 }
