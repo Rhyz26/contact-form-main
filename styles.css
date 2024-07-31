@@ -4,6 +4,7 @@
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: hsl(148, 38%, 91%); */
 }
 
 body {
@@ -11,21 +12,21 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: hsl(148, 38%, 91%);
 }
 
 .enquiry {
-  display: flex;
-  gap: 0.5rem;
+display: flex;
+gap: 0.5rem;
+margin-top: 0.8rem;
+margin-bottom: 1rem;
 }
 .name{
     display: flex;
     gap:0.5rem;
     
 }
-.first{
-    /* display: flex; */
 
-}
 .check{
     display: flex;
     gap:0.5rem;
@@ -33,14 +34,15 @@ body {
     margin-bottom: 2rem;
 }
 .content{
-    background-color: goldenrod;
+    background-color: hsl(0, 0%, 100%);
     width:450px;
     margin-top: 8rem;
-    margin-left: 28rem;
+    margin-left: 30rem;
     padding-left:1.5rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
     border-radius: 0.5rem;
+    margin-bottom: 2rem;
 }
 
 .required::after {
