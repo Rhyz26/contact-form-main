@@ -96,4 +96,12 @@ input {
     text-align: center;
     width: 100%;
   }
+  *,
+  *::after,
+  *::before {
+      margin: 0px;
+      padding: 0;
+      box-sizing: border-box;
+      /* background-color: hsl(148, 38%, 91%); */
+  }
 }
