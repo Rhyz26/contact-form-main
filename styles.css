@@ -166,6 +166,19 @@ input {
     width: 410px;
 }
 
+.success{
+    background-color: hsl(169, 82%, 27%);
+    padding: 20px;
+    width:500px;
+    border-radius: 8px;
+    margin-left: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+.imeg{
+    margin-right: 10px;
+    
+}
+
 
 
 @media (max-width: 375px) {
