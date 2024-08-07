@@ -1,10 +1,11 @@
+/* Your existing CSS */
+
 *,
 *::after,
 *::before {
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: hsl(148, 38%, 91%); */
 }
 
 body {
@@ -20,7 +21,6 @@ body {
     gap: 0.5rem;
     margin-top: 0.8rem;
     margin-bottom: 1rem;
-
 }
 
 .support {
@@ -60,7 +60,7 @@ body {
 .content {
     background-color: hsl(0, 0%, 100%);
     width: 450px;
-    margin-top: 8rem;
+    margin-top: 2rem;
     margin-left: 30rem;
     padding-left: 1.5rem;
     padding-bottom: 2rem;
@@ -83,17 +83,12 @@ textarea {
     padding: 30px;
     border: 1px solid hsl(186, 15%, 59%);
     border-radius: 4px;
-    /* box-sizing: border-box; */
-    /* font-size: 16px; */
 }
 
 textarea {
     resize: none;
-    /* Disable resizing */
     width: 96%;
-    /* Full width */
     height: 90px;
-    /* Fixed height */
     margin-top: 10px;
 }
 
@@ -115,7 +110,6 @@ button:hover {
 input {
     border: 1px solid hsl(186, 15%, 59%);
 }
-
 
 .green-checkbox {
     appearance: none;
@@ -141,7 +135,6 @@ input {
     line-height: 20px;
 }
 
-
 .green-radio {
     appearance: none;
     width: 15px;
@@ -166,20 +159,32 @@ input {
     width: 410px;
 }
 
-.success{
-    background-color: hsl(169, 82%, 27%);
+.success {
+    background-color: #1A3E36;
     padding: 20px;
-    width:500px;
+    width: 450px;
     border-radius: 8px;
-    margin-left: 2rem;
+    margin-left: 30rem;
     color: hsl(0, 0%, 100%);
+    margin-top: 20px;
 }
-.imeg{
+
+.imeg {
     margin-right: 10px;
-    
 }
 
+.error {
+    color: red;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
 
+input.error,
+textarea.error,
+.green-radio.error,
+.green-checkbox.error {
+    border-color: red;
+}
 
 @media (max-width: 375px) {
     .attribution {
@@ -194,21 +199,15 @@ input {
         margin: 0px;
         padding: 0;
         box-sizing: border-box;
-        /* background-color: hsl(148, 38%, 91%); */
     }
 
     .content {
         background-color: hsl(0, 0%, 100%);
         width: 300px;
-        /* margin-top: 8rem; */
         margin-left: 2rem;
-        /* margin-right: 8rem; */
-        /* padding-left: 1.5rem; */
         padding-bottom: 2rem;
         padding-top: 1rem;
         border-radius: 0.5rem;
-        /* margin-bottom: 2rem; */
-
     }
 
     .first {
@@ -233,21 +232,15 @@ input {
     }
 
     textarea {
-        /* width: 100%; */
         padding: 30px;
         border: 1px solid hsl(186, 15%, 59%);
         border-radius: 4px;
-        /* box-sizing: border-box; */
-        /* font-size: 16px; */
     }
 
     textarea {
         resize: none;
-        /* Disable resizing */
         width: 90%;
-        /* Full width */
         height: 150px;
-        /* Fixed height */
         margin-top: 10px;
     }
 
@@ -276,8 +269,6 @@ input {
         width: 250px;
         height: 30px;
         border-radius: 0.4em;
-        /* margin-top: 0.8rem; */
-        /* margin-bottom: 1rem; */
     }
 
     .list {
@@ -293,4 +284,14 @@ input {
     .required {
         margin-bottom: 5px;
     }
+
+    .success {
+            background-color: #1A3E36;
+            padding: 20px;
+            width: 300px;
+            border-radius: 8px;
+            margin-left: 2rem;
+            color: hsl(0, 0%, 100%);
+            margin-top: 20px;
+        }
 }
