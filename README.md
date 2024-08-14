@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Rhyz26/contact-form-main.git)
-- Live Site URL: [Add live site URL here](https://contact-form-main-taupe.vercel.app/)
+- Solution URL: [https://github.com/Rhyz26/contact-form-main.git]
+- Live Site URL: [https://contact-form-main-taupe.vercel.app/]
 
 ## My process
 
