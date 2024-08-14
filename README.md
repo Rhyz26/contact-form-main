@@ -30,10 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-
-![Design preview for the Contact form coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Contact form coding challenge](./design/dasktop.jpg)
 
 ### Links
 
